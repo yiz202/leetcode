@@ -23,4 +23,3 @@ class Solution(object):
                     return False
         return True
 
-            
