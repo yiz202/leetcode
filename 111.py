@@ -25,4 +25,3 @@ class Solution(object):
         if root.right:self.dfs(root.right,result,num+1)
         num-=1
         return result
-        
