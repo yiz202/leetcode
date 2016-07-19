@@ -20,4 +20,3 @@ class Solution(object):
             if abs(lh-rh)>1: return -1
             return max(lh,rh)+1
         return height(root)!=-1
-        

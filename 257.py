@@ -53,6 +53,34 @@ class Solution:
             self.dfs(node.right, result, tmp)
         tmp.pop()
 
+
+
+
+# dfs sulution
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+# class Solution:
+#     # @param {TreeNode} root
+#     # @return {string[]}
+#     def binaryTreePaths(self, root):
+#         result = []
+#         if root is None: return []
+#         def dfs(node,path):
+#             if node.left is None and node.right is None: result.append(path)
+#             if node.left: dfs(node.left,path+"->" + str(node.left.val))
+#             if node.right: dfs(node.right,path+"->"+str(node.right.val))
+#         dfs(root,str(root.val))
+#         return result
+
+
+
+
+
 if __name__ == '__main__':
     root = TreeNode(1)
     # root.left = TreeNode(2)
