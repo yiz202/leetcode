@@ -14,4 +14,3 @@ class Solution(object):
                 if dic[n] == 1:
                     return True
         return False
-                
