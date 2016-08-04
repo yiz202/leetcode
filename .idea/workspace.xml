@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3dd277bd-59a2-412a-9d5c-95e4befdab8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19. Remove Nth Node From End of List.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21. Merge Two Sorted Lists.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/24 swap node in pairs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/83. Remove Duplicates from Sorted List.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/217. Contains Duplicate.py" afterPath="$PROJECT_DIR$/217. Contains Duplicate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/19. Remove Nth Node From End of List.py" afterPath="$PROJECT_DIR$/19. Remove Nth Node From End of List.py" />
     </list>
     <ignored path="leetcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,8 +99,8 @@
       <file leaf-file-name="19. Remove Nth Node From End of List.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/19. Remove Nth Node From End of List.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.661562">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1075,8 +1070,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/19. Remove Nth Node From End of List.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.661562">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
