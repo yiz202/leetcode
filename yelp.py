@@ -10,4 +10,10 @@ def find_server(request):
     random.randint(n)
     0 0 0 0 1 1 1 2 2 3
     # use that number to pick a server
-    arr = [[0]*weights[i] for i in range(len(weights))]
+
+    arr = [[i]*weights[i] for i in servers]
+    res = []
+    for a in arr:
+        res+= a
+    #res = [4,4,4,4,3,3,3,2,2,1]
+    random.randrange()
