@@ -1,0 +1,18 @@
+1. memorization search:
+377 题，注意最好用-1，因为0也是需要的。一般都是loop搞完了以后再assign memo的数
+memo = [-1]*(target+1)
+        def search(nums,target):
+            res = 0
+            if memo[target]!=-1:
+                return memo[target]
+            for n in nums:
+                if n < target:
+                    res+=search(nums,target-n)
+                if n == target:
+                    res+=1
+            memo[target] = res
+            return res
+        return search(nums,target)
+backtrack vs divide conquer
+res 在括号里     res是var
+40 avoid 最后return的res 有重复就得在iteration就避免而不是用set那样弄。比较常见的方法是先sort
